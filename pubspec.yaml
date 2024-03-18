@@ -1,0 +1,26 @@
+name: whatsapp_share
+description: Simple way to share message, links or files from your flutter app to specific contact in whatsapp
+version: 2.0.2
+homepage: https://github.com/amitpatil215/whatsapp_share
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.whatsapp_share
+        pluginClass: WhatsappShare
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+  flutter: ">=1.20.0"
